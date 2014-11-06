@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/stephen/documents/hairy-octo-lana-server/src/public_html'
+let g:netrw_dirhist_2='/home/stephen/documents/hairy-octo-lana-server/clang-build/CMakeFiles'
+let g:netrw_dirhist_3='/home/stephen/documents/hairy-octo-lana-server/src'
+let g:netrw_dirhist_4='/home/stephen/Downloads/code-egs'
+let g:netrw_dirhist_5='/home/stephen/documents/hairy-octo-lana-server/src'
+let g:netrw_dirhist_6='/home/stephen/documents/coding-questions/uva/101_the_block_problem'
+let g:netrw_dirhist_7='/home/stephen/documents/coding-questions/uva/494_kindergarten_counting_game'
+let g:netrw_dirhist_8='/home/stephen/documents/coding-questions/problem_of_the_week/1_pattern_matching'
