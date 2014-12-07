@@ -7,14 +7,16 @@ source ~/.vim/bundle/.pluginrc
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/.ycm_extra_conf.py'
+
 syntax on
 set t_Co=256
 set number
 colorscheme desert
 set expandtab
 set tabstop=2
-set shiftwidth=2
 set smartindent
+set shiftwidth=2
 
 filetype plugin indent on
 
@@ -31,3 +33,4 @@ set foldlevel=1         "this is just what i use
 " plugin manager to store everything at runtime.
 " remove the option where sessions save global variable state.
 set sessionoptions-=options
+

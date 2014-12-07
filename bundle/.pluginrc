@@ -1,6 +1,13 @@
 " let Vundle manage Vundle
 Plugin 'gmarik/Vundle.vim'
 
+" C++ auto complete, and compiling.
+Plugin 'Valloric/YouCompleteMe'
+
+" Add haskell support
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'eagletmt/neco-ghc'
+
 "/* The following are examples of different formats supported.
 " "Keep Plugin commands between vundle#begin/end.
 " " plugin on GitHub repo
