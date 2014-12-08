@@ -5,8 +5,10 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 
 " Add haskell support
-Plugin 'eagletmt/ghcmod-vim'
+Plugin 'Shougo/vimproc'
+"Plugin 'eagletmt/ghcmod-vim'
 Plugin 'eagletmt/neco-ghc'
+Plugin 'scrooloose/syntastic'
 
 "/* The following are examples of different formats supported.
 " "Keep Plugin commands between vundle#begin/end.

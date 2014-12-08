@@ -9,6 +9,8 @@ call vundle#end()            " required
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/.ycm_extra_conf.py'
 
+
+
 syntax on
 set t_Co=256
 set number
@@ -34,3 +36,5 @@ set foldlevel=1         "this is just what i use
 " remove the option where sessions save global variable state.
 set sessionoptions-=options
 
+" Adds YouCompleteMe auto completation for haskell
+let g:ycm_semantic_triggers = {'haskell' : ['.', '= ', "import "]}
